@@ -18,5 +18,4 @@ if ($mark == 1) {
 } else {
 	echo "Je prvocislo";
 }
-
 ?>
