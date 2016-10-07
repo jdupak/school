@@ -3,6 +3,7 @@
 <input type="submit">
 </form>
 <?php 
+// zjištění prvočísla
 $n = $_GET["n"];
 function prvociclo($n){
 	$sq_n = sqrt($n);
