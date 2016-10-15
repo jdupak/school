@@ -5,6 +5,7 @@
 <?php 
 // zjištění prvočísla
 $n = $_GET["n"];
+
 function prvociclo($n){
 	$sq_n = sqrt($n);
 	for ($i=2; $i <= $sq_n; $i++) { 
@@ -19,4 +20,5 @@ if ($mark == 1) {
 } else {
 	echo "Je prvocislo";
 }
+
 ?>
