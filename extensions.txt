@@ -1,0 +1,3 @@
+SublimeCodeIntel
+SublimeLinter
+SublimeLinter-php

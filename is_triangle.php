@@ -10,11 +10,12 @@ c=<input name="c">
 	$b = $_GET["b"];
 	$c = $_GET["c"];
 function is_triangle($a,$b,$c){
-	if ((($a + $b) > $c) || (($a + $c) > $b) || (($c + $b) > $a)) {
+	if ((($a + $b) > $c) && (($a + $c) > $b) && (($c + $b) > $a)) {
 		echo "Ano";
 	}
 	else {
 		echo "Ne";
 	}
 }
+is_triangle($a,$b,$c);
 ?>
