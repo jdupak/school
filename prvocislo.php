@@ -18,7 +18,7 @@ $mark = prvociclo($n);
 if ($mark == 1) {
 	echo "Neni prvocislo";
 } else {
-	echo "Je prvocislo";
+	echo "Je prvocislo"
 }
 
 ?>
