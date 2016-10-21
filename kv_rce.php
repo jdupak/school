@@ -1,6 +1,6 @@
-<!-- øešení kv rce -->
+<!-- Ã¸eÅ¡enÃ­ kv rce -->
 
-<form action="./index.php" method="get">
+<form action="./kv_rce.php" method="get">
   <input id="a" name="a"> x^2 +
   <input id="b" name="b"> x +
   <input id="c" name="c">
@@ -10,16 +10,24 @@
   $a = $_GET["a"];
   $b = $_GET["b"];
   $c = $_GET["c"];  
-
+function kvSolve($a,$b,$c) {
   $d = ($b*$b)-(4*$a*$c);
-  $sqroot_d = sqrt($d);
-  $x1 = (0-$b+$sqroot_d)/(2*$a);
-  $x2 = (0-$b-$sqroot_d)/(2*$a);
-  if  ($d<0)
-    {
-    echo "Nemá øešení";
+  if ($d > 0) {
+    $sqroot_d = sqrt($d);
+    if ($a == 0) {
+      $x1 = (0-$b+$sqroot_d);
+      $x2 = (0-$b-$sqroot_d);
     }
-  elseif ($d==0)
+    else {
+      $x1 = (0-$b+$sqroot_d)/(2*$a);
+      $x2 = (0-$b-$sqroot_d)/(2*$a);
+    }
+  } 
+  if  ($d < 0)
+    {
+    echo "NemÃ¡ Å™eÅ¡enÃ­";
+    }
+  elseif ($d == 0)
     {
     echo "x1 = ".$x1."<br>\n";
     }
@@ -27,6 +35,8 @@
     {    
     echo "x1 = ".$x1."<br>\n";
     echo "x2 = ".$x2."<br>\n";
-    };
-
+    }
+}
+kvSolve($a,$b,$c);
+//doÅ™eÅ¡it podmÃ­nky
 ?>
