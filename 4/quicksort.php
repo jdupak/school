@@ -30,6 +30,6 @@ function quicksort($array)
 	return cut($array);
 
 }
-$array = array("2","8","5","6","4","1");
+$array = array("22","8","5","6","4","1","12","55","89","-258");
 print_r(quicksort($array));
 ?>

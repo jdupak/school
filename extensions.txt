@@ -1,3 +1,8 @@
-SublimeCodeIntel
-SublimeLinter
-SublimeLinter-php
+Gulp
+less
+jquery
+colorpicker
+ReadMePlease
+sidebarenhancemets
+//hyperlinkhelper
+//emmet
