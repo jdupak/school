@@ -1,6 +1,6 @@
 <?php 
 	$array = [",5","4","4","50","9"];
-	function array_analysis($array)
+	function array_analysis($array = [",5","4","4","50","9"];)
 	{
 		function my_sort($array){
 			$n = count($array)-1;
