@@ -6,3 +6,5 @@ ReadMePlease
 sidebarenhancemets
 //hyperlinkhelper
 //emmet
+
+css extended completition
