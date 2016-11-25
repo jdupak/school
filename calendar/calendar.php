@@ -21,7 +21,7 @@ echo "<table>\n";
 ?>
 	<tr>
 		<td>
-			<a href="#">&lt;</a>
+			<a href="?month=<?php echo($month-1); ?>?">&lt;</a>
 		</td>
 		<td colspan="5">
 			<?php 
@@ -29,7 +29,7 @@ echo "<table>\n";
 			?>
 		</td>
 		<td>
-			<a href="?month=<?php $month+1 ?>?">&gt;</a>
+			<a href="?month=<?php echo($month+1); ?>?">&gt;</a>
 		</td>
 	</tr>
 <?php
