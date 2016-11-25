@@ -52,6 +52,6 @@
 	$array = array("1","6","3","4","7","7","8");
 	echo("součet = ".countOddsSmallerThan($array,5)."<br>\n");
 //věk v minutách (zanedbáva první den --> čas narození 00:00)
-	echo("věk v minutách = ".countAgeInMinutes(12,11,2000)."<br>\n") //day,month,year
+	echo("věk v minutách = ".countAgeInMinutes(11,04,1998)."<br>\n") //day,month,year
 
 ?>

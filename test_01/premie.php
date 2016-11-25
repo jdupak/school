@@ -13,5 +13,5 @@
 		}
 		return $result;
 	}
-	echo(toDec(z,1));
+	echo(toDec(a5b7e9d3f789,16));
 ?>

@@ -10,18 +10,35 @@
 $days = array("Po","Út","St","Čt","Pá","So","Ne");
 $months = array('leden', 'únor', 'březen', 'duben', 'květen', 'červen', 'červenec', 'srpen', 'září', 'říjen', 'listopad', 'prosinec');
 
-$month = date("n");
-$year = date("Y");
+if (isset($_GET["month"])) 
+{$month = $_GET["month"];}
+else {$month = date("n");};
+
+if (isset($_GET["year"])) 
+{$year = $_GET["year"];}
+else {$year = date("Y");}	
+
 $countDays = date("t");
 $first = date("N",mktime(0,0,0,$month,1,$year));
-
 
 //table echo
 echo "<table>\n";
 ?>
 	<tr>
 		<td>
-			<a href="?month=<?php echo($month-1); ?>?">&lt;</a>
+			<a href="?month=<?php
+			 	if ($month < 2) {
+			 		echo "12";
+			 		$year_temp = true;
+			 	}
+			 	else {
+			 		echo ($month-1);
+			 	}
+			?>
+			&year=<?php
+				echo (($year_temp) ? $year-1 : $year);
+				unset($year_temp);
+			?>">&lt;</a>
 		</td>
 		<td colspan="5">
 			<?php 
@@ -29,7 +46,19 @@ echo "<table>\n";
 			?>
 		</td>
 		<td>
-			<a href="?month=<?php echo($month+1); ?>?">&gt;</a>
+			<a href="?month=<?php
+			 	if ($month > 11) {
+			 		echo "1";
+			 		$year_temp = true;
+			 	}
+			 	else {
+			 		echo ($month+1);
+			 	}
+			?>
+			&year=<?php
+				echo (($year_temp) ? $year+1 : $year);
+				unset($year_temp);
+			?>">&gt;</a>
 		</td>
 	</tr>
 <?php
