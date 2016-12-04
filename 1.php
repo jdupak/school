@@ -6,5 +6,5 @@
   echo "Nelze dìlit";
  else echo $x/$y;   */
 
-echo pow(5,2);
+echo pow(5,4);
 ?>

@@ -1,0 +1,95 @@
+Soubor
+	New file
+			CTRL + N
+
+	Open
+			CTRL + O
+
+	New window
+			CTRL + Shift + N
+
+Text
+	Posun řádku, indentace
+			CTRL + \ + Up/Down/left/Right
+
+        Kopie řádku
+                        CTRL + Shift + D
+
+        Smazání řádku
+                        CTRL + Shift + K
+
+        Spojit řádky
+                        CTRL + Shift + J
+                
+
+
+
+        Komentář řádkový
+                        CTRL + /
+
+        Komentář blokový
+                        CTRL + Shift + /
+
+
+        Smazat ->
+                        CTRL + Delete
+
+        Smazat 
+                        CTRL + Backspace
+
+
+        Ukončit tag
+                        ALT + .
+        
+        <p></p>
+                        ALT + Shift + W
+
+        Upercase
+                        CTRL + K -> U
+
+        Lovercase
+                        CTRL + K -> L
+
+
+Značky
+        Vytvořit značku
+                        CTRL + K -> Space
+
+        Smazat značku
+                        CTRL + K -> G                
+        
+        Vybrat ke značce
+                        CTRL + K -> A
+
+
+Výběr
+        Vybrat řádek    
+                        CTRL + L
+
+        Vybrat slovo
+                        CTRL + D
+
+        Vybrat sekci
+                        CTRL + Shift + Space
+
+        Vybrat k tagu
+                        CTRL + Shift + A
+
+
+Hledat
+
+Go To
+
+GULP
+        Watchlive
+                        CTRL + Q
+
+        Watch
+                        CTRL+Shift+Q               
+
+        Kill
+                        CTRL+ALT+Q
+
+Projekt
+        Změnit projekt
+                        CTRL + ALT + P
