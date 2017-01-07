@@ -30,6 +30,20 @@ function quicksort($array)
 	return cut($array);
 
 }
+
+function array_flatten($array) {
+    $return = array();
+    foreach ($array as $key => $value) {
+        if (is_array($value)){
+            $return = array_merge($return, array_flatten($value));
+        } else {
+            $return[$key] = $value;
+        }
+    }
+
+    return $return;
+}
+
 $array = array("22","8","5","6","4","1","12","55","89","-258");
-print_r(quicksort($array));
+print_r(array_flatten(quicksort($array)));
 ?>

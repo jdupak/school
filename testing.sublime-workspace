@@ -4,12 +4,44 @@
 		"selected_items":
 		[
 			[
-				"ac",
-				"action\tAttr"
+				"br",
+				"brusinkový"
+			],
+			[
+				"g",
+				"grenadina"
 			],
 			[
 				"s",
-				"sqroot_d\t(kv_rce.php)"
+				"sirup"
+			],
+			[
+				"c",
+				"cukrový"
+			],
+			[
+				"show",
+				"showRangeValue"
+			],
+			[
+				"ra",
+				"rangeInput"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"id",
+				"id\tAttr"
+			],
+			[
+				"form",
+				"form\tTag"
+			],
+			[
+				"ac",
+				"action\tAttr"
 			],
 			[
 				"mk",
@@ -152,10 +184,6 @@
 				"gmp_fact〔function〕"
 			],
 			[
-				"ra",
-				"rand"
-			],
-			[
 				"po",
 				"pow"
 			],
@@ -178,10 +206,6 @@
 			[
 				"mar",
 				"margin"
-			],
-			[
-				"re",
-				"ready\t$(document).ready"
 			],
 			[
 				"key",
@@ -283,35 +307,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/W/testing/phpbs/gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 718,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/W/testing/phpbs/1.php",
-			"settings":
-			{
-				"buffer_size": 98,
-				"encoding": "Western (Windows 1252)",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<!doctype html>\n<!--[if lt IE 7 ]><html itemscope itemtype=\"https://schema.org/\" id=\"ie6\" class=\"ie\" lang=\"en-US\"><![endif]-->\n<!--[if IE 7 ]>   <html itemscope itemtype=\"https://schema.org/\" id=\"ie7\" class=\"ie\" lang=\"en-US\"><![endif]-->\n<!--[if IE 8 ]>   <html itemscope itemtype=\"https://schema.org/\" id=\"ie8\" class=\"ie\" lang=\"en-US\"><![endif]-->\n<!--[if IE 9 ]>   <html itemscope itemtype=\"https://schema.org/\" id=\"ie9\" class=\"ie\" lang=\"en-US\"><![endif]-->\n<!--[if gt IE 9]><!--><html itemscope itemtype=\"https://schema.org/\" lang=\"en-US\"><!--<![endif]-->\n<head>\n\n    <meta charset=\"utf-8\">\n    <!--\n                                     /$$               /$$\n                                    | $$              | $$\n      /$$$$$$$  /$$$$$$$  /$$$$$$  /$$$$$$    /$$$$$$$| $$$$$$$  /$$   /$$\n     /$$_____/ /$$_____/ /$$__  $$|_  $$_/   /$$_____/| $$__  $$| $$  | $$\n    |  $$$$$$ | $$      | $$  \\ $$  | $$    | $$      | $$  \\ $$| $$  | $$\n     \\____  $$| $$      | $$  | $$  | $$ /$$| $$      | $$  | $$| $$  | $$\n     /$$$$$$$/|  $$$$$$$|  $$$$$$/  |  $$$$/|  $$$$$$$| $$  | $$|  $$$$$$$\n    |_______/  \\_______/ \\______/    \\___/   \\_______/|__/  |__/ \\____  $$\n                                                                 /$$  | $$\n                                                                |  $$$$$$/\n                                                                 \\______/\n                                     /$$               /$$\n                                    | $$              | $$\n      /$$$$$$$  /$$$$$$$  /$$$$$$  /$$$$$$    /$$$$$$$| $$$$$$$\n     /$$_____/ /$$_____/ /$$__  $$|_  $$_/   /$$_____/| $$__  $$\n    |  $$$$$$ | $$      | $$  \\ $$  | $$    | $$      | $$  \\ $$\n     \\____  $$| $$      | $$  | $$  | $$ /$$| $$      | $$  | $$\n     /$$$$$$$/|  $$$$$$$|  $$$$$$/  |  $$$$/|  $$$$$$$| $$  | $$\n    |_______/  \\_______/ \\______/    \\___/   \\_______/|__/  |__/\n\n\n\n                                     /$$               /$$\n                                    | $$              | $$\n      /$$$$$$$  /$$$$$$$  /$$$$$$  /$$$$$$    /$$$$$$$| $$$$$$$\n     /$$_____/ /$$_____/ /$$__  $$|_  $$_/   /$$_____/| $$__  $$\n    |  $$$$$$ | $$      | $$  \\ $$  | $$    | $$      | $$  \\ $$\n     \\____  $$| $$      | $$  | $$  | $$ /$$| $$      | $$  | $$\n     /$$$$$$$/|  $$$$$$$|  $$$$$$/  |  $$$$/|  $$$$$$$| $$  | $$\n    |_______/  \\_______/ \\______/    \\___/   \\_______/|__/  |__/\n    -->\n    <title>Gulp Starter with Less ♥ Scotch</title>\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\">\n    <meta content=\"yes\" name=\"apple-mobile-web-app-capable\">\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black-translucent\">\n\n    <!-- ICONS - THANKS A LOT APPLE... -->\n    <link rel=\"shortcut icon\" sizes=\"16x16 24x24 32x32 48x48 64x64\" href=\"https://scotch.io/favicon.ico\">\n    <link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"https://scotch.io/wp-content/themes/thirty/img/icons/favicon-57.png\">\n    <link rel=\"apple-touch-icon-precomposed\" sizes=\"57x57\" href=\"https://scotch.io/wp-content/themes/thirty/img/icons/favicon-57.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"https://scotch.io/wp-content/themes/thirty/img/icons/favicon-72.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"https://scotch.io/wp-content/themes/thirty/img/icons/favicon-114.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"https://scotch.io/wp-content/themes/thirty/img/icons/favicon-120.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"https://scotch.io/wp-content/themes/thirty/img/icons/favicon-144.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"https://scotch.io/wp-content/themes/thirty/img/icons/favicon-152.png\">\n    <meta name=\"application-name\" content=\"Scotch Scotch scotch\">\n    <meta name=\"msapplication-TileImage\" content=\"https://scotch.io/wp-content/themes/thirty/img/icons/favicon-144.png\">\n    <meta name=\"msapplication-TileColor\" content=\"#2A2A2A\">\n\n    <!-- SEARCH -->\n    <meta name=\"author\" content=\"\">\n    <meta name=\"description\" content=\"\">\n    <link rel=\"canonical\" href=\"\">\n\n    <!-- TWITTER -->\n    <meta name=\"twitter:card\" content=\"\">\n    <meta name=\"twitter:site\" content=\"\">\n    <meta name=\"twitter:creator\" content=\"\">\n    <meta name=\"twitter:title\" content=\"\">\n    <meta name=\"twitter:description\" content=\"\">\n    <meta name=\"twitter:image:src\" content=\"\">\n\n    <!-- FACEBOOK -->\n    <meta property=\"og:site_name\" content=\"\">\n    <meta property=\"og:url\" content=\"\">\n    <meta property=\"og:type\" content=\"\">\n    <meta property=\"og:title\" content=\"\">\n    <meta property=\"og:description\" content=\"\">\n    <meta property=\"og:image\" content=\"\">\n    <meta property=\"fb:app_id\" content=\"\">\n    <meta property=\"fb:admins\" content=\"\">\n\n    <!-- G+ -->\n    <meta itemprop=\"name\" content=\"\">\n    <meta itemprop=\"description\" content=\"\">\n    <meta itemprop=\"image\" content=\"\">\n\n    <!-- CSS -->\n    <link rel=\"stylesheet\" href=\"build/style.css\">\n\n</head>\n<body>\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-10 col-md-offset-1\">\n                <h1>Less is more!</h1>\n                <p>Lorem ipsum dolor sit amet, <a href=\"#\">consectetur adipisicing</a> elit. Nobis distinctio culpa incidunt eum nihil, quibusdam ex beatae eius quaerat voluptate officia cupiditate, est, aut dolorum eos libero! Aliquid, eligendi, totam?</p>\n            </div>\n        </div>\n    </div>\n\n    <!-- Scripts -->\n    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js\"></script>\n    <script src=\"build/jquery.plugins.min.js\"></script>\n    <script src=\"build/scripts.min.js\"></script>\n\n</body>\n</html>",
-			"file": "/W/testing/phpbs/index.html",
-			"file_size": 5887,
-			"file_write_time": 131237794863396252,
-			"settings":
-			{
-				"buffer_size": 5776,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -320,10 +315,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 127.0,
-		"last_filter": "readm",
+		"height": 357.0,
+		"last_filter": "html",
 		"selected_items":
 		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
 			[
 				"readm",
 				"ReadmePlease"
@@ -331,14 +338,6 @@
 			[
 				"php",
 				"Set Syntax: PHP"
-			],
-			[
-				"html",
-				"Set Syntax: HTML"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
 			],
 			[
 				"linter",
@@ -500,12 +499,49 @@
 	"expanded_folders":
 	[
 		"/W/testing",
-		"/W/testing/phpbs"
+		"/W/testing/EP",
+		"/W/testing/EP/config"
 	],
 	"file_history":
 	[
-		"/W/testing/luxor/timer.php",
+		"/C/Users/Kuba/wamp/www/pb/EP_Doc/templates/presentation/cs/@layout.tpl",
+		"/C/Users/Kuba/wamp/www/pb/elnino/templates/front/cz-b2c/documentation/doc-generate.php",
+		"/C/Users/Kuba/wamp/www/pb/EP_Doc/templates/presentation/cs/componentsCatalogue.tlp",
+		"/C/Users/Kuba/wamp/www/pb/elnino/templates/front/cz-b2c/documentation/componentsCatalogue.tlp",
+		"/C/Users/Kuba/wamp/www/pb/elnino/templates/front/cz-b2c/documentation/documentation.tpl",
+		"/C/Users/Kuba/wamp/www/pb/EP_Doc/config/local.develop.php",
+		"/C/Users/Kuba/wamp/www/pb/ePublisher/config/local.develop.php",
+		"/C/Users/Kuba/wamp/www/pb/EP_Doc/templates/presentation/cs/test.tpl",
+		"/C/Users/Kuba/wamp/www/pb/EP_Doc/templates/presentation/cs/component-block.tpl",
+		"/C/Users/Kuba/wamp/www/pb/EP_Doc/templates/presentation/cs/documentation.tpl",
+		"/C/Users/Kuba/wamp/www/pb/EP_Doc/templates/presentation/cs/documentation/component-block.tpl",
+		"/C/Users/Kuba/wamp/www/pb/EP_Doc/templates/presentation/cs/documentation/componentsCatalogue.tlp",
+		"/W/testing/EP/templates/presentation/cs/@layout.tpl",
+		"/W/testing/EP_Doc/templates/presentation/cs/@layout.tpl",
+		"/W/pb/EP/templates/presentation/documentation/component-block.tpl",
+		"/C/Users/Kuba/wamp/www/pb/ePublisher/config/testing.develop.php",
+		"/W/testing/EP/templates/presentation/cs/documentation.tpl",
+		"/W/testing/EP/templates/presentation/cs/home.tpl",
+		"/W/testing/EP/templates/presentation/cs/root.tpl",
+		"/W/pb/ePublisher/config/local.develop.php",
+		"/W/pb/elnino/templates/front/cz-b2c/documentation/documentation.tpl",
+		"/D/Kuba/Plocha/cocktails.txt",
+		"/D/Kuba/Downloads/pozn/23-12-2016.17.15.33.vnt",
+		"/W/testing/html5/forms.html",
+		"/W/testing/html5/cavanas.html",
+		"/D/Kuba/Downloads/pozn/03-06-2016.18.41.40.vnt",
+		"/W/testing/app/index.html",
+		"/D/Kuba/Disk Google/Školní klub/Loga/VECTOR/logo SK.ps",
+		"/D/Kuba/Plocha/vlsub.lua",
+		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/PHP/PHP.sublime-completions",
+		"/W/testing/phpbs/gulpfile.js",
+		"/W/testing/phpbs/1.php",
 		"/W/testing/luxor/timer.js",
+		"/C/Users/Kuba/.v8flags.4.6.85.31.Kuba.json",
+		"/C/Users/Kuba/.v8flags.5.1.281.84.Kuba.json",
+		"/C/Users/Kuba/.ssh/known_hosts",
+		"/G/Operace luxor/timer.js",
+		"/W/testing/luxor/timer.php",
 		"/W/testing/gulp-and-less-starter-kit/gulpfile.js",
 		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/mdpopups/README.md",
 		"/W/testing/luxor/test.html",
@@ -515,9 +551,7 @@
 		"/W/testing/EP/templates/presentation/cs/base/_header.tpl",
 		"/W/testing/EP/templates/presentation/cs/base/_meta-header.tpl",
 		"/W/testing/EP/www/common/less/index.less",
-		"/W/testing/EP/templates/presentation/cs/home.tpl",
 		"/W/testing/EP/templates/presentation/cs/base/_styles.tpl",
-		"/W/testing/EP/templates/presentation/cs/@layout.tpl",
 		"/W/testing/EP/templates/presentation/cs/base/_footer.tpl",
 		"/D/Kuba/Disk Google/Osobní/Práce, HTML,Videa/cally.co.nf/footer.html",
 		"/D/Kuba/Disk Google/Osobní/Práce, HTML,Videa/cally.co.nf/html_header.php",
@@ -547,7 +581,6 @@
 		"/W/school/pi.php",
 		"/W/school/calendar/styles.css",
 		"/W/school/calendar/calendar.php",
-		"/C/Users/Kuba/.v8flags.5.1.281.84.Kuba.json",
 		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/LESS/LESS.sublime-settings",
 		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/ColorHelper/color_helper.sublime-settings",
 		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/User/color_helper.sublime-settings",
@@ -598,40 +631,7 @@
 		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/README.rst",
 		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/Package Control/readme.md",
 		"/W/school/is_triangle.php",
-		"/W/school/prvocislo.php",
-		"/W/school/4/searchArray.php",
-		"/D/Kuba/Disk Google/Osobní/PC/Addons/Czech.dic",
-		"/W/school/4/quicksort.php",
-		"/W/testing/date.php",
-		"/W/testing/cyklus.php",
-		"/W/testing/test1.php",
-		"/W/school/pi2.php",
-		"/C/Users/Kuba/AppData/Local/Temp/Rar$DIa0.403/phpca.ini",
-		"/W/testing/PHP_Code_Analyser/phpca-0.6/tester.php",
-		"/W/testing/PHP_Code_Analyser/phpca-0.6/PHPCodeAnalyzer.php",
-		"/W/testing/PHP_Code_Analyser/phpca-0.6/test.php",
-		"/C/Users/Kuba/wamp/bin/php/php5.6.25/php.ini",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/Default (Windows).sublime-keymap",
-		"/W/school/index.php",
-		"/D/Kuba/Plocha/map_drives.bat",
-		"/D/Kuba/Plocha/map_drives.txt",
-		"/G/Viewegh Michal/Viewegh-Roman pro zeny.pdb",
-		"/G/Ő",
-		"/W/add_vhost.php",
-		"/D/Kuba/Plocha/school/prvocislo.php",
-		"/W/testing/prvocislo.php",
-		"/W/testing/school/prvocislo.php",
-		"/C/Users/Kuba/wamp/bin/apache/apache2.4.23/bin/php.ini",
-		"/C/Users/Kuba/wamp/bin/apache/apache2.4.23/conf/httpd.conf",
-		"/C/Users/Kuba/wamp/wampmanager.conf",
-		"/D/Kuba/Plocha/Kasiopea/1/script.js",
-		"/D/Kuba/Plocha/Práce, HTML,Videa/JS/kasiopea1.js",
-		"/C/Users/Default/AppData/Roaming/Microsoft/Windows/SendTo/Mail Recipient.MAPIMail",
-		"/D/Kuba/Plocha/Pošta – zástupce.lnk",
-		"/D/Kuba/Plocha/Práce, HTML,Videa/JS/kasiopea2.js",
-		"/D/Kuba/Plocha/Kasiopea/doc.html",
-		"/D/Kuba/Disk Google/Osobní/Práce, HTML,Videa/Archiv/USDD/stranky/Hlavni_stranka.html",
-		"/C/Users/Kuba/wamp/www/cally/html_header.php"
+		"/W/school/prvocislo.php"
 	],
 	"find":
 	{
@@ -653,6 +653,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">",
+			"šťáva",
+			"citronová",
+			"ananasový",
+			"Pink",
+			"vodka",
+			"gin",
+			"Martini",
+			"vodka",
+			"Balalajka",
+			"tequilla",
+			"Margarita",
+			"argument",
+			"tel",
+			"Tel",
+			"tel",
+			"Email",
+			":</",
 			"now",
 			"time",
 			"i",
@@ -730,519 +748,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/W/testing/phpbs/gulpfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 718,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								718
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"color_helper.box_height": 19,
-							"color_helper.color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.preview_meta":
-							{
-							},
-							"color_helper.scan":
-							{
-								"current_ext": ".js",
-								"current_syntax": "JavaScript/JavaScript",
-								"enabled": false,
-								"last_updated": 1480862568.2
-							},
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 114.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/W/testing/phpbs/1.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 98,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								93,
-								93
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										93,
-										94
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										89,
-										90
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"color_helper.box_height": 19,
-							"color_helper.color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.preview_meta":
-							{
-							},
-							"color_helper.scan":
-							{
-								"allowed_colors":
-								[
-									"hex",
-									"hex_compressed",
-									"hsl",
-									"hsla",
-									"rgba",
-									"webcolors",
-									"rgb"
-								],
-								"compress_hex_output": true,
-								"current_ext": ".php",
-								"current_syntax": "PHP/PHP",
-								"enabled": true,
-								"last_updated": 1480862568.2,
-								"scan_completion_scopes":
-								[
-								],
-								"scan_scopes":
-								[
-									"meta.property-list.css -support.type.property-name.css -comment -string",
-									"meta.property-value.css -comment -string",
-									"meta.value.css -comment -string",
-									"meta.tag.inline.any.html string.quoted",
-									"meta.tag.any.html meta.attribute-with-value.style.html"
-								],
-								"use_hex_argb": false
-							},
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/W/testing/phpbs/index.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 5776,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								583,
-								584
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										572,
-										576
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										572,
-										576
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"color_helper.box_height": 19,
-							"color_helper.color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
-							"color_helper.file_palette":
-							[
-								"#2a2a2aff"
-							],
-							"color_helper.scan":
-							{
-								"allowed_colors":
-								[
-									"hex",
-									"hsla",
-									"webcolors",
-									"hex_compressed",
-									"hsl",
-									"rgb",
-									"rgba"
-								],
-								"compress_hex_output": true,
-								"current_ext": ".html",
-								"current_syntax": "HTML/HTML",
-								"enabled": true,
-								"last_updated": 1480859632.28,
-								"scan_completion_scopes":
-								[
-								],
-								"scan_scopes":
-								[
-									"meta.property-list.css -support.type.property-name.css -comment -string",
-									"meta.property-value.css -comment -string",
-									"meta.value.css -comment -string",
-									"meta.tag.inline.any.html string.quoted",
-									"meta.tag.any.html meta.attribute-with-value.style.html"
-								],
-								"use_hex_argb": false
-							},
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1325,7 +832,7 @@
 		[
 			[
 				"",
-				"W:\\school\\school.sublime-project"
+				"W:\\pb\\pb.sublime-project"
 			]
 		],
 		"width": 380.0
