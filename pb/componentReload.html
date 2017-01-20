@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+</head>
+<body>
+	<div>
+		<div class="XXX">This is a text.</div><input type="color" name="color"><button class="reloadComponent">Reload</button>
+	</div>
+	<div>
+		<div class="XXX">This is a text.</div><input type="color" name="color"><button class="reloadComponent">Reload</button>
+	</div>
+	<div>
+		<div class="XXX">This is a text.</div><input type="color" name="color"><button class="reloadComponent">Reload</button>
+	</div>
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(".reloadComponent").click(function() {
+		target = $(this);
+		var input_data = new Array();
+		input_data['color'] = target.parent().children("input").val();
+		var post_data = JSON.parse(input_data);
+		console.log(post_data);
+		$.post('/dupak/pb/reload.php', post_data, function(data) {
+			target.parent().children('.XXX').html(data);
+		});
+	});
+</script>
+</html>
