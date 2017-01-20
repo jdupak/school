@@ -1,17 +1,10 @@
-Gulp
+PGulp
 less
 jquery
 colorpicker
 ReadMePlease
 sidebarenhancemets
+//hyperlinkhelper
 //emmet
 
 css extended completition
-
-bracketHighliter
-all autocomplete
-css3
-htmlatributes
-better completitions
-php completions kit
-php syntay checker

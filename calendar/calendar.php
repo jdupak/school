@@ -16,7 +16,12 @@ else {$month = date("n");};
 
 if (isset($_GET["year"])) 
 {$year = $_GET["year"];}
-else {$year = date("Y");}	
+else {$year = date("Y");}
+
+if  (!checkdate((int)$month,1,(int)$year)) {
+  $month = date("n");
+  $year = date("Y");
+}
 
 $countDays = date("t");
 $first = date("N",mktime(0,0,0,$month,1,$year));
@@ -76,7 +81,7 @@ for ($week=1; $week <= 6; $week++) {
 		echo("\t\t<td>".$day."</td>\n");
 	}
 	echo "\t</tr>\n";
-	if(!checkdate($month, $day-1, $year)) {break;};
+	if(!checkdate($month, $day+0, $year)) {break;};
 }
 echo "</table>\n";
 ?>

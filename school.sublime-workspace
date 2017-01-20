@@ -4,286 +4,163 @@
 		"selected_items":
 		[
 			[
-				"a",
+				"rand",
+				"randArray"
+			],
+			[
+				"fla",
+				"flatternArray"
+			],
+			[
+				"arr",
 				"array\t$… = array (…)"
 			],
 			[
-				"s",
-				"sqroot_d\t(kv_rce.php)"
-			],
-			[
-				"mk",
-				"mktime"
-			],
-			[
-				"t",
-				"throw\tThrow Exception"
-			],
-			[
-				"date",
-				"date"
-			],
-			[
-				"mys",
-				"MYSQLI_CLIENT_INTERACTIVE"
-			],
-			[
-				"my",
-				"mysqli_connect"
-			],
-			[
-				"di",
-				"div\tTag"
-			],
-			[
-				"me",
-				"meta\tTag"
-			],
-			[
-				"links",
-				"links\tlink - stylesheet"
-			],
-			[
-				"style",
-				"style\t<style>"
-			],
-			[
-				"html",
-				"html5\tSimple HTML5 Boilerplate"
-			],
-			[
-				"table",
-				"table\tTag"
-			],
-			[
-				"cla",
-				"class\tAttr"
-			],
-			[
-				"div",
-				"div\t<div>"
-			],
-			[
-				"ye",
-				"year_temp"
-			],
-			[
-				"unse",
-				"unset"
-			],
-			[
-				"y",
-				"year_temp"
-			],
-			[
-				"if",
-				"if"
-			],
-			[
-				"back",
-				"background-color"
+				"fu",
+				"fun\tfunction …"
 			],
 			[
 				"for",
 				"for\tfor …"
 			],
 			[
-				"h",
-				"h1\tTag"
+				"fun",
+				"fun\tfunction …"
+			],
+			[
+				"a",
+				"accuracy"
+			],
+			[
+				"it",
+				"interation"
+			],
+			[
+				"result",
+				"results_1"
+			],
+			[
+				"mont",
+				"month"
+			],
+			[
+				"day",
+				"dayInWeek"
 			],
 			[
 				"fo",
 				"for\tfor …"
 			],
 			[
-				"array",
-				"array"
+				"bir",
+				"birth_day"
+			],
+			[
+				"bi",
+				"birth_year"
+			],
+			[
+				"birt",
+				"birth_month"
+			],
+			[
+				"mk",
+				"mktime"
 			],
 			[
 				"echo",
 				"echo"
 			],
 			[
-				"print",
-				"print_r"
+				"if",
+				"if\tif …"
 			],
 			[
-				"shuff",
-				"shuffle_array"
+				"ar",
+				"array_s"
 			],
 			[
-				"pri",
-				"print_r"
+				"kv",
+				"kvSolve"
 			],
 			[
-				"array_s",
-				"array_splice"
+				"array",
+				"array_g"
 			],
 			[
-				"mt",
-				"mt_rand"
-			],
-			[
-				"ech",
-				"echo"
-			],
-			[
-				"co",
-				"count"
-			],
-			[
-				"word",
-				"word-wrap"
-			],
-			[
-				"ec",
-				"echo"
-			],
-			[
-				"set_",
-				"set_time_limit"
-			],
-			[
-				"gmp",
-				"gmp_fact〔function〕"
-			],
-			[
-				"ra",
-				"rand"
-			],
-			[
-				"po",
-				"pow"
-			],
-			[
-				"wo",
-				"workingArray"
-			],
-			[
-				"text",
-				"textInput"
-			],
-			[
-				"rea",
-				"ready\t$(document).ready"
-			],
-			[
-				"ma",
-				"margin"
-			],
-			[
-				"mar",
-				"margin"
-			],
-			[
-				"re",
-				"ready\t$(document).ready"
-			],
-			[
-				"key",
-				"keypress\t.keypress()"
-			],
-			[
-				"tare",
-				"targetStatus"
-			],
-			[
-				"targ",
-				"targetStatus"
-			],
-			[
-				"tar",
-				"targetStatus"
-			],
-			[
-				"marg",
-				"margin-bottom"
-			],
-			[
-				"fu",
-				"fun\tFunction"
-			],
-			[
-				"mouse",
-				"mouseenter\t.mouseenter()"
-			],
-			[
-				"fun",
-				"fun\tFunction"
-			],
-			[
-				"marig",
-				"margin-left"
-			],
-			[
-				"intera",
-				"animation-iteration-count"
-			],
-			[
-				"te",
-				"text-align"
-			],
-			[
-				"v",
-				"vertical-align"
-			],
-			[
-				"ba",
-				"background-color"
-			],
-			[
-				"pa",
-				"parseAndSolve"
-			],
-			[
-				"bin",
-				"binY"
+				"value",
+				"value"
 			],
 			[
 				"n",
-				"numbersLength"
+				"n_act"
 			],
 			[
-				"w",
-				"workingSubArray"
-			],
-			[
-				"W",
-				"workingArray"
-			],
-			[
-				"input",
-				"inputAmount"
-			],
-			[
-				"txt",
-				"textInput"
-			],
-			[
-				"i",
-				"input"
+				"prvocisla",
+				"prvocisla"
 			],
 			[
 				"pr",
-				"prompt"
+				"prvocisla"
 			],
 			[
-				"pro",
-				"promt"
+				"m",
+				"mark_r"
 			],
 			[
-				"wri",
-				"write"
+				"sq",
+				"sqr_n"
+			],
+			[
+				"ech",
+				"echo\techo \"…\""
+			],
+			[
+				"ta",
+				"tabulka_kontaktu"
+			],
+			[
+				"print",
+				"print_r"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"file": "razeni.php",
+			"settings":
+			{
+				"buffer_size": 924,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "4/quicksort.php",
 			"settings":
 			{
-				"buffer_size": 1013,
+				"buffer_size": 1029,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?php \nfunction myfactor($x=0)\n{\t\n\tif ($x == 0) {$x = 1;} \n\tfor ($i=$x-1; $i > 1; $i--) { \n\t\t$x *= $i;\n\t}\nreturn $x;\n}\n?>",
+			"file": "leden6.php",
+			"file_size": 151,
+			"file_write_time": 131281610798864598,
+			"settings":
+			{
+				"buffer_size": 121,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leden6_sorting.php",
+			"settings":
+			{
+				"buffer_size": 800,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -296,49 +173,33 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 127.0,
-		"last_filter": "remove",
+		"height": 288.0,
+		"last_filter": "ph",
 		"selected_items":
 		[
 			[
+				"ph",
+				"Set Syntax: PHP"
+			],
+			[
 				"remove",
 				"Package Control: Remove Package"
-			],
-			[
-				"linter",
-				"SublimeLinter: Enable Linter"
-			],
-			[
-				"lin",
-				"SublimeLinter: Lint This View"
 			],
 			[
 				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"",
-				"File: Copy Path From Project"
-			],
-			[
-				"reas",
+				"rea",
 				"ReadmePlease"
 			],
 			[
-				"php",
-				"Set Syntax: PHP"
-			],
-			[
-				"html",
-				"Set Syntax: HTML"
-			],
-			[
-				"read",
-				"ReadmePlease"
-			],
-			[
-				"ins",
+				"instal",
 				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: CDATA"
 			],
 			[
 				"remo",
@@ -349,115 +210,17 @@
 				"Package Control: Install Package"
 			],
 			[
-				"rea",
-				"ReadmePlease"
-			],
-			[
-				"color",
-				"Color Helper: Show Palettes"
-			],
-			[
-				"css",
-				"Set Syntax: CSS"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
-				"pacage",
-				"Package Control: Remove Package"
-			],
-			[
-				"inslal",
-				"Package Control: Install Package"
-			],
-			[
-				"PHP Code Sniffer: ",
-				"PHP Code Sniffer: Sniff this file"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
-				"INSLA",
-				"Package Control: Install Package"
-			],
-			[
-				"re",
-				"Package Control: Remove Package"
-			],
-			[
-				"colo",
-				"Package Control: Install Package"
-			],
-			[
-				"plea",
-				"ReadmePlease"
-			],
-			[
-				"pa",
-				"Package Control: Remove Package"
-			],
-			[
-				"insla",
-				"Package Control: Install Package"
-			],
-			[
-				"snippet",
-				"SublimeCodeIntel: Dump Import Directories"
-			],
-			[
-				"comm",
-				"Toggle Block Comment"
-			],
-			[
-				"gulp\t",
-				"Gulp"
-			],
-			[
-				"Package Control: ",
-				"Package Control: List Packages"
-			],
-			[
-				"theme",
-				"SublimeLinter: Choose Gutter Theme"
-			],
-			[
-				"gul",
-				"Gulp"
-			],
-			[
-				"Package Control: ins",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: insta",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: i",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: instal",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: in",
-				"Package Control: Install Package"
+				"set sytax ph",
+				"Set Syntax: PHP"
 			]
 		],
-		"width": 464.0
+		"width": 432.0
 	},
 	"console":
 	{
-		"height": 126.0,
+		"height": 0.0,
 		"history":
 		[
-			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
-			"mport urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -471,141 +234,49 @@
 	},
 	"expanded_folders":
 	[
-		"/W/school",
-		"/W/school/4",
-		"/W/school/fce",
-		"/W/school/test_01"
+		"/C/VertrigoServ/www/dupak",
+		"/C/VertrigoServ/www/dupak/4",
+		"/C/VertrigoServ/www/dupak/fce",
+		"/C/VertrigoServ/www/dupak/mpi"
 	],
 	"file_history":
 	[
-		"/W/school/1.php",
-		"/W/testing/EP/include/smarty3/plugins/function.fetch.php",
-		"/W/testing/EP/include/smarty3/Smarty.class.php",
-		"/W/testing/EP/include/smarty3/plugins/block.ajax.php",
-		"/W/testing/EP/app/administrator/activity.php",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Backup/20161114175210/Gulp/snippets/var gulp = require('name').sublime-snippet",
-		"/W/school/gulpfile.js",
-		"/W/testing/phpbs/package.json",
-		"/W/jan-pincak/gulpfile.js",
-		"/W/school/key binding.txt",
-		"/W/school/test.php",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/PHP Syntax Checker/README.md",
-		"/W/school/extensions.txt",
-		"/W/school/kv_rce.php",
-		"/W/school/school.sublime-project",
-		"/W/school/pi.php",
-		"/W/school/calendar/styles.css",
-		"/W/school/calendar/calendar.php",
-		"/C/Users/Kuba/.v8flags.5.1.281.84.Kuba.json",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/LESS/LESS.sublime-settings",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/ColorHelper/color_helper.sublime-settings",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/User/color_helper.sublime-settings",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/ColorHelper/README.md",
-		"/W/school/test_01/premie.php",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
-		"/D/Kuba/Disk Google/Škola/Testování ICT/Ness.CSI.Win.exe",
-		"/D/Kuba/Disk Google/Škola/Testování ICT/Delivery/23564/TestSet_PQHDAM.xml",
-		"/D/Kuba/Disk Google/Škola/Testování ICT/Repository/13/_Resources30.xml",
-		"/D/Kuba/Disk Google/Škola/Testování ICT/Repository/23564/TestSet_PYTVMT.xml",
-		"/D/Kuba/Disk Google/Škola/Testování ICT/plugins/liba52_plugin.dll",
-		"/D/Kuba/Disk Google/Škola/Testování ICT/Repository/13/TestSet_VQQZIL.xml",
-		"/D/Kuba/Disk Google/Škola/Testování ICT/Repository/13/info.txt",
-		"/W/school/bubblesort.php",
-		"/W/testing/HTML/div_overflow.html",
-		"/D/Kuba/Plocha/OneEleven/templates/pagetemplate.tpl",
-		"/D/Kuba/Plocha/OneEleven/templates/login.tpl",
-		"/D/Kuba/Plocha/OneEleven/templates/footer.tpl",
-		"/D/Kuba/Plocha/OneEleven/templates/notifications.tpl",
-		"/W/school/ukoly_04/array_analysis.php",
-		"/W/index.php",
-		"/W/testing/cms/admin/themes/OneEleven/templates/footer.tpl",
-		"/W/testing/cms/admin/themes/OneEleven/css/style.css",
-		"/W/testing/cms/admin/themes/OneEleven/templates/pagetemplate.tpl",
-		"/D/Kuba/Plocha/zexterior.xml",
-		"/W/testing/cms/admin/header.php",
-		"/W/testing/cms/cmsms-2.1.5-install.php",
-		"/W/school/ukoly_04/shuffle_array.php",
-		"/D/Kuba/Downloads/index (2).php",
-		"/W/testing/index.php",
-		"/W/school/pi4_time-analysis.php",
-		"/D/Kuba/Downloads/index (1).php",
-		"/D/Kuba/Downloads/index.php",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/Phpcs/README.md",
-		"/W/school/rozklad.php",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Settings/SideBarEnhancements.json",
-		"/W/school/pi3.php",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/readme.md",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Default (Windows).sublime-keymap",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/ColorPick/README.md",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/README.md",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter-php/README.md",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/Default (Windows).sublime-keymap",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/README.rst",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/Package Control/readme.md",
-		"/W/school/is_triangle.php",
-		"/W/school/prvocislo.php",
-		"/W/school/4/searchArray.php",
-		"/D/Kuba/Disk Google/Osobní/PC/Addons/Czech.dic",
-		"/W/school/4/quicksort.php",
-		"/W/testing/date.php",
-		"/W/testing/cyklus.php",
-		"/W/testing/test1.php",
-		"/W/school/pi2.php",
-		"/C/Users/Kuba/AppData/Local/Temp/Rar$DIa0.403/phpca.ini",
-		"/W/testing/PHP_Code_Analyser/phpca-0.6/tester.php",
-		"/W/testing/PHP_Code_Analyser/phpca-0.6/PHPCodeAnalyzer.php",
-		"/W/testing/PHP_Code_Analyser/phpca-0.6/test.php",
-		"/C/Users/Kuba/wamp/bin/php/php5.6.25/php.ini",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/Default (Windows).sublime-keymap",
-		"/W/school/index.php",
-		"/D/Kuba/Plocha/map_drives.bat",
-		"/D/Kuba/Plocha/map_drives.txt",
-		"/G/Viewegh Michal/Viewegh-Roman pro zeny.pdb",
-		"/G/Ő",
-		"/W/add_vhost.php",
-		"/D/Kuba/Plocha/school/prvocislo.php",
-		"/W/testing/prvocislo.php",
-		"/W/testing/school/prvocislo.php",
-		"/C/Users/Kuba/wamp/bin/apache/apache2.4.23/bin/php.ini",
-		"/C/Users/Kuba/wamp/bin/apache/apache2.4.23/conf/httpd.conf",
-		"/C/Users/Kuba/wamp/wampmanager.conf",
-		"/D/Kuba/Plocha/Kasiopea/1/script.js",
-		"/D/Kuba/Plocha/Práce, HTML,Videa/JS/kasiopea1.js",
-		"/C/Users/Default/AppData/Roaming/Microsoft/Windows/SendTo/Mail Recipient.MAPIMail",
-		"/D/Kuba/Plocha/Pošta – zástupce.lnk",
-		"/D/Kuba/Plocha/Práce, HTML,Videa/JS/kasiopea2.js",
-		"/D/Kuba/Plocha/Kasiopea/doc.html",
-		"/D/Kuba/Disk Google/Osobní/Práce, HTML,Videa/Archiv/USDD/stranky/Hlavni_stranka.html",
-		"/C/Users/Kuba/wamp/www/cally/html_header.php",
-		"/C/Users/Kuba/wamp/www/cally/styles.css",
-		"/C/Users/Kuba/wamp/www/cally/script.js",
-		"/C/Users/Kuba/wamp/www/cally/header.html",
-		"/C/Users/Kuba/wamp/www/cally/mobile.css",
-		"/D/Kuba/Plocha/hra.html",
-		"/D/Kuba/Plocha/JS/kasiopea1.html",
-		"/D/Kuba/Plocha/JS/kasiopea1.js",
-		"/D/Kuba/Plocha/JS/kasiopea2.js",
-		"/D/Kuba/Plocha/JS/script1.js",
-		"/D/Kuba/Plocha/JS/doc.html",
-		"/C/Users/Kuba/wamp/www/cally/styles/styles.css",
-		"/C/Users/Kuba/wamp/www/ePublisher/app/core/database/database.php",
-		"/C/Users/Kuba/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+		"/C/VertrigoServ/www/dupak/mpi/mpi.php",
+		"/C/VertrigoServ/www/dupak/mpi/index.php",
+		"/C/VertrigoServ/www/dupak/sazky/index.php",
+		"/C/VertrigoServ/www/dupak/2.php",
+		"/C/VertrigoServ/www/dupak/3.php",
+		"/H/7b_dupak/Sublime Text 3/Data/Settings/SideBarEnhancements.json",
+		"/H/7b_dupak/Sublime Text 3/Data/Packages/User/Side Bar.sublime-settings",
+		"/H/7b_dupak/Sublime Text 3/Data/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/H/7b_dupak/Sublime Text 3/Data/Packages/SideBarEnhancements/readme.md",
+		"/H/7b_dupak/Sublime Text 3/Data/Packages/CSS Extended Completions/css_style_completions.sublime-settings",
+		"/H/7b_dupak/Sublime Text 3/Data/Packages/User/charset.snipet",
+		"/C/VertrigoServ/www/dupak/extensions.txt",
+		"/C/VertrigoServ/www/dupak/test_01/premie.php",
+		"/C/VertrigoServ/www/dupak/ukoly_04/shuffle_array.php",
+		"/C/VertrigoServ/www/dupak/test_01/test.php",
+		"/C/VertrigoServ/www/dupak/4/searchArray.php",
+		"/C/VertrigoServ/www/dupak/4/quicksort.php",
+		"/C/VertrigoServ/www/dupak/kv_rce.php",
+		"/C/VertrigoServ/www/dupak/prvocislo.php",
+		"/C/VertrigoServ/www/dupak/is_triangle.php",
+		"/C/VertrigoServ/www/dupak/rozklad.php",
+		"/H/7b_dupak/subst.bat",
+		"/C/VertrigoServ/www/dupak/cykly.php",
+		"/C/VertrigoServ/www/dupak/cykly2.php",
+		"/C/VertrigoServ/www/dupak/cyklus_prvocisla.php",
+		"/C/Users/student44/Desktop/hosts"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
-			""
 		]
 	},
 	"find_state":
@@ -613,54 +284,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"3",
-			"doc",
-			"q",
-			"T",
-			"t",
-			"T",
-			"t",
-			"T",
-			"t",
-			"T",
-			"t",
-			"leda",
-			"        ",
-			"Space",
-			"Zakomentovat",
-			"  ",
-			" \n",
-			"haha",
-			"echo",
-			"month",
-			"\";}",
-			"mesic",
-			"$month = date(\"n\");\n$year = date(\"Y\");",
-			"working",
-			"i",
-			"$j",
+			"result",
+			" $",
+			"2",
+			"FunctionName",
+			"accuracy",
+			"p",
+			"interation",
+			"results",
+			"multiply",
+			"results_multiply",
+			"countdays",
 			"j",
+			"tyden",
 			"i",
-			"($",
-			"i",
-			"div",
-			");\n",
-			"https",
-			"php",
-			"echo",
-			"($",
-			"echo",
-			"timer",
-			"bcmul",
-			"10000",
-			",\n",
-			"bcmath",
-			"cd",
-			");\n",
-			"directory",
-			"background",
-			">\")",
-			"var"
+			"day",
+			"birth_day",
+			"day",
+			"php"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -668,185 +309,132 @@
 		"regex": false,
 		"replace_history":
 		[
-			""
 		],
 		"reverse": false,
 		"show_context": true,
-		"use_buffer2": false,
+		"use_buffer2": true,
 		"whole_word": false,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "4/quicksort.php",
+					"file": "razeni.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1013,
+						"buffer_size": 924,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1009,
-								1009
+								110,
+								117
 							]
 						],
 						"settings":
 						{
-							"auto_complete_triggers":
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "4/quicksort.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1029,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										1008,
-										1009
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										975,
-										976
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"color_helper.box_height": 20,
-							"color_helper.color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.preview_meta":
-							{
-							},
-							"color_helper.scan":
-							{
-								"allowed_colors":
-								[
-									"rgb",
-									"hsla",
-									"hex",
-									"webcolors",
-									"hex_compressed",
-									"rgba",
-									"hsl"
-								],
-								"compress_hex_output": true,
-								"current_ext": ".php",
-								"current_syntax": "PHP/PHP",
-								"enabled": true,
-								"last_updated": 1483818153.59,
-								"scan_completion_scopes":
-								[
-								],
-								"scan_scopes":
-								[
-									"meta.declaration-list.css -support.type.property-name.css -comment -string",
-									"meta.property-value.css -comment -string",
-									"meta.value.css -comment -string",
-									"meta.tag.inline.any.html string.quoted",
-									"meta.tag.any.html meta.attribute-with-value.style.html"
-								],
-								"use_hex_argb": false
-							},
+								851,
+								842
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 180.0,
+						"translation.y": 449.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "leden6.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "leden6_sorting.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 800,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								52
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -854,7 +442,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -889,21 +477,13 @@
 	},
 	"output.find_results":
 	{
-		"height": 290.0
-	},
-	"output.git":
-	{
-		"height": 118.0
-	},
-	"output.gulp_output":
-	{
-		"height": 124.0
+		"height": 0.0
 	},
 	"pinned_build_system": "",
 	"project": "school.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -912,25 +492,17 @@
 		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"kv",
-				"kv_rce.php"
-			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 0.0,
 		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"",
-				"W:\\school\\testing.sublime-project"
-			]
 		],
-		"width": 380.0
+		"width": 0.0
 	},
 	"select_symbol":
 	{
@@ -946,10 +518,10 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": true,
+	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 192.0,
+	"side_bar_width": 177.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

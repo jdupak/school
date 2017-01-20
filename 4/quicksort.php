@@ -30,6 +30,7 @@ function quicksort($array)
 	return cut($array);
 
 }
+$array = array("22","8","5","6","4","1","12","55","89","-258");
 
 function array_flatten($array) {
     $return = array();
@@ -40,10 +41,8 @@ function array_flatten($array) {
             $return[$key] = $value;
         }
     }
-
     return $return;
 }
 
-$array = array("22","8","5","6","4","1","12","55","89","-258");
 print_r(array_flatten(quicksort($array)));
 ?>
