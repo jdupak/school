@@ -12,13 +12,14 @@
 	</form>
 
 <?php 
-	$searched = $_POST['nic'];
+	$searched = $_POST['searched'];
 
 	include 'parseCSV.php';
 	$data = parseCSV('data.csv');
 
 	include 'searchArrayReturnCoord.php';
-	$searchResult = searchArrayReturnCoord($data);
+	$searchResult = searchArrayReturnCoord($searched, $data);
+	print_r($searchResult);
 ?>
 
 </body>
