@@ -34,7 +34,7 @@ if (isset($_SESSION['session'])) {
 	$authorised = checkSession($_SESSION['user'], $_SESSION['session']);
 	if ($authorised) {
 		echo "Logged in as ".$_SESSION['user'];
-		echo "<a url='./logout.php'> [logout] </a>";
+		echo " <a href='./logout.php'>[logout]</a>";
 	} 
 }
 ?>

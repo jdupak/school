@@ -17,9 +17,10 @@ if ($users[$username] == $hash) {
 	session_start();
 	$_SESSION['user'] = $username;
 	$_SESSION['session'] = $session;
-} 
-
-header("Location: http://school/login/index.php?error=Access denied");
+	header("Location: http://school/login/index.php");
+} else {
+	header("Location: http://school/login/index.php?error=Access denied");
+}
 
 
 
