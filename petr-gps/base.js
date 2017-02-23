@@ -59,7 +59,7 @@ function sendPosition(pos) {
 	        lat: pos["lat"],
 	        long: pos["long"]},       
    			success: function() {
-        alert("Sent");
+        
     } 
     	});   
 }
