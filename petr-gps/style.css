@@ -1,0 +1,39 @@
+/*
+HEADERS: 	font-family: 'Baloo', cursive, sans-serif;
+GPS: 		font-family: 'VT323', monospace, serif;
+TEXT: 		font-family: 'Oswald', sans-serif;
+*/
+
+body {
+	background-color: #36cdff;
+}
+
+.content {
+	margin: 5% 15%;
+	font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Baloo', cursive;
+	font-size: 14vw;
+}
+
+.data-value {
+	font-family: 'VT323', monospace, serif;
+	font-size: 14vw;
+	text-align: center;
+
+	margin: 0 auto 20px;
+}
+
+#demo {
+	font-size: 10px;
+	font-style: italic;
+}
+
+.debug {
+	border: solid 1px black;
+	background-color: white;
+	padding: 5px;
+}

@@ -1,12 +1,24 @@
 var target = new Array;
 target.push(50.043495);
 target.push(14.453175);
+var tolerance = 20;
+
+$('#debug_target').html(target[0]+", "+target[1]);
+
+
+// functions defifnitions ==>
+
+function debug_setTarget() {
+ 	target[0] = $('#lat').val();
+ 	target[1] = $('#long').val();
+ 	$('#debug_target').html(target[0]+", "+target[1]);
+ }
 
 function watchPosition() {
 	if (navigator.geolocation) {
         var position = navigator.geolocation.watchPosition(locate);
     } else {
-      document.getElementById("demo").innerHTML = "Geolocation is not supported by this browser.";
+      document.getElementById("Error").innerHTML = "Geolocation is not supported by this browser.";
     }
 }
 
@@ -16,8 +28,14 @@ function locate(position) {
 	pos["long"] = position.coords.longitude;
 	var dist = getDistance(pos, target);
 	var azim = getAzimuth(pos, target);
-	$('#demo').html("LAT: "+pos["lat"]+" LONG:"+pos["long"]+" Dist:"+dist+" Azimuth :"+azim);
+	$('#distance').html(Math.round(dist)+" m");
+	$('#azimuth').html(Math.round(azim)+"°");
+	/*debug*/	$('#demo').html("DEBUGING: LAT: "+pos["lat"]+" LONG:"+pos["long"]+" Dist:"+dist+" Azimuth :"+azim);
 	sendPosition(pos);
+	if (distance > tolerance) {
+		finalMessage();
+		return;
+	}
 }
 
 Math.radians = function(degrees) {
@@ -46,7 +64,7 @@ function getAzimuth(pos, target) {
 	var y = Math.sin(pos["long"]-target[1]) * Math.cos(c);
 	var x = Math.cos(b)*Math.sin(c) -
         Math.sin(b)*Math.cos(c)*Math.cos(pos["long"]-target[1]);
-	var azim = Math.degrees(Math.atan2(y, x));
+	var azim = Math.degrees(Math.atan2(y, x))+180;
 	return azim;
 }
 
@@ -59,8 +77,11 @@ function sendPosition(pos) {
 	        lat: pos["lat"],
 	        long: pos["long"]},       
    			success: function() {
-        
     } 
-    	});   
+    	}); 
+
+function finalMessage() {
+  	Alert('Dosahli jste cíle!')
+  }  
 }
 watchPosition();
