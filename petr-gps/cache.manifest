@@ -1,6 +1,7 @@
 CACHE MANIFEST
 ./base.js
 ./style.css
+https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js
 https://fonts.googleapis.com/css?family=Baloo|Oswald|VT323
 https://fonts.gstatic.com/s/baloo/v1/SGrMP-s4ZzeXHjeTjbvGSQ.woff2
 https://fonts.gstatic.com/s/baloo/v1/cW-kpFu5iuSs19ICXlPI_w.woff2

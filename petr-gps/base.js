@@ -2,6 +2,7 @@ var target = new Array;
 target.push(50.043495);
 target.push(14.453175);
 var tolerance = 20;
+watchPosition();
 
 $('#debug_target').html(target[0]+", "+target[1]);
 
@@ -31,11 +32,12 @@ function locate(position) {
 	$('#distance').html(Math.round(dist)+" m");
 	$('#azimuth').html(Math.round(azim)+"°");
 	/*debug*/	$('#demo').html("DEBUGING: LAT: "+pos["lat"]+" LONG:"+pos["long"]+" Dist:"+dist+" Azimuth :"+azim);
-	sendPosition(pos);
-	if (distance > tolerance) {
+	if (dist <= tolerance) {
+		sendPosition(pos);
 		finalMessage();
 		return;
 	}
+	sendPosition(pos);
 }
 
 Math.radians = function(degrees) {
@@ -70,18 +72,16 @@ function getAzimuth(pos, target) {
 
 function sendPosition(pos) {
     $.ajax({
-    	url: './receive.php',
+    	url: './server/receive.php',
     	type: 'post',
     	data: {
 	        user: navigator.appCodeName+navigator.appVersion,
 	        lat: pos["lat"],
 	        long: pos["long"]},       
-   			success: function() {
-    } 
-    	}); 
+   			success: function() {} 
+    	})
+}; 
 
 function finalMessage() {
-  	Alert('Dosahli jste cíle!')
-  }  
+  	alert('Dosahli jste cíle!');
 }
-watchPosition();
