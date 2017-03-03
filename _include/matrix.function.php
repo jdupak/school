@@ -85,16 +85,17 @@
 
 	function writeMatrixAsTable($matrix)
 	{
-		$result = "<table>\n"
+		$result = "<table>\n";
 		foreach ($matrix as $row) {
-			$result .= "<tr>";
+			$result .= "\t<tr>\n";
 
 			foreach ($row as $element) {
-				$result .= "<td>".$element."</td>"
+				$result .= "\t\t<td>".$element."</td>\n";
 			}
 
-			$result .= "</tr>";
+			$result .= "\t</tr>\n";
 		}
+		$result .= "</table>\n";
 
 		return $result;
 	}
