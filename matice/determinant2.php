@@ -17,6 +17,7 @@
 				$direction = -1;
 			}
 
+			$submatrix = array();
 			foreach ($matrix as $matrix_coord_y => $row) {
 				$submatrix_row = Array();
 				foreach ($row as $matrix_coord_x => $value) {
@@ -36,5 +37,5 @@
 		return $result;
 	}
 
-	echo determinant( parseCSV("./matice1.csv") );
+	echo determinant( parseCSV("./matice5.csv") );
  ?>

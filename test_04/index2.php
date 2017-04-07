@@ -1,13 +1,6 @@
 <?php 
 
-	function writeMatrix($matrix)
-	{
-		foreach ($matrix as $subarray) {
-			$result[] = implode(" ", $subarray);
-		}
-		$result = implode(PHP_EOL, $result);
-		return $result;
-	}
+	include '../_include/matrix.function.php';
 	/* ======================================== */
 
 	function genMatrixWithDiagonal($input)
@@ -26,6 +19,6 @@
 	}	
 		
 
-	echo writeMatrix(genMatrixWithDiagonal(20));
+	echo writeMatrix(genMatrixWithDiagonal(314),"breaks");
 
 ?>
