@@ -13,8 +13,7 @@
     /**
     *	Retrives datafile in csv format and transforms it to multidimenstional array
     *
-    *	@param {string} $target - value to be searched
-    *	@param {string} $array - array to be searched
+    *	@param {string} $path - path to cvs matrix file
     */
     	function parseCSV($path)
     	{
@@ -127,28 +126,6 @@
 
     		return $result;
     	}
-
-    /**
-    * Generate matrix without given line and column
-    * 
-    * @param {array}
-    */
-        function submatrix($matrix, $coord_y, $coord_x)
-        {
-            foreach ($matrix as $matrix_coord_y => $row) {
-                $submatrix_row = Array();
-                foreach ($row as $matrix_coord_x => $value) {
-                    if (($matrix_coord_y != $coord_y) AND ($matrix_coord_x != $coord_x)) {
-                        $submatrix_row[] = $value*1;
-                    }
-                }
-                if ($submatrix_row != NULL) {
-                    $submatrix[] = $submatrix_row;
-                }
-            }
-
-            return $submatrix;
-        }
 
 /* =====================
     __MATH
@@ -274,7 +251,22 @@
             return $newMatrix;
         }
 
+    /**
+     * Solves system of equations system
+     *
+     * @param {array} matrixLeft - left sides of equations in matrix
+     * @param {array} matrixRight - right sides (results) of equations in matrix
+     * @return {array} - vertical array of results
+     */
 
+        function solveEqSystem($matrixLeft, $matrixRight)
+        {
+            if ( determinant($matrixLeft) == 0 ) {
+                return "ZERO DETERMINANT";
+            }
+
+            return $result = matrixProduct( inverseMatrix( $matrixLeft ),$matrixRight );
+        }
 
 
 ?>
