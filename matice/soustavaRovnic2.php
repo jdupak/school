@@ -13,7 +13,24 @@
 			}
 		}
 
+		$j = 1;
+		for ($i = count($matrix)-1; $i >= 0; $i--) { 
+			$count = count($matrix[$i])-1;
+			if (isset($result)) {
+				foreach ($result as $key => $value) {
+					$matrix[$i][$count] -= $matrix[$i][$key] * $value;
+				}
+			}
+			$result[$count-$j] = $matrix[$i][$count] / $matrix[$i][$count-$j];
+			$j++;
+		}
+
+		sort($result);
+
+		print_r($result);
+
 		return $matrix;
 	}
+
 	echo writeMatrix( solveEqSystem2($matrix),"table" );
 ?>

@@ -3,6 +3,10 @@
 	[
 		{
 			"path": "W:\\testing"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "W:\\testing\\wordpress\\wp-content\\themes\\twentyseventeen"
 		}
 	]
 }

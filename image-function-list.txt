@@ -1,0 +1,8 @@
+imageCreate
+imagepolygon
+imageFilledArc
+imageRectangle
+imagearc
+imageJPEG
+imageDestroy
+imageFtText
